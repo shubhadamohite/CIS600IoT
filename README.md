@@ -1,7 +1,9 @@
 # CIS600IoT
 
 In this assignment, we are required to build a cloud-based IoT system which collects data from a set of virtual sensors that are deployed to collect environmental information using the MQTT protocol to display the following information: 
+
 a) Display the latest sensor data values received from all the sensors of a specified environmental station.
+
 b) Display the sensor data values received during the last five hours from all environmental station of a specified sensor.
 
 I have used [ThingsBoard](https://demo.thingsboard.io/login) to perform the above. 
