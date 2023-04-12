@@ -26,9 +26,8 @@ python tempSensor1.py
 
 # The following interfaces were built using the dashboarding functionality of ThingsBoard: 
 
-<img width="452" alt="image" src="https://user-images.githubusercontent.com/47294531/231548178-25db1521-87cf-41f0-a8e1-e0345fde5868.png">
-<img width="452" alt="image" src="https://user-images.githubusercontent.com/47294531/231548230-dcce81c8-d7a4-4641-9760-2685c9ef8c19.png">
-
+<img width="1294" alt="image" src="https://user-images.githubusercontent.com/47294531/231549301-44daa02f-9357-4180-a238-f9ccfdb1c381.png">
+<img width="1294" alt="image" src="https://user-images.githubusercontent.com/47294531/231549603-4fc4d020-5a0b-42fb-b363-acadb8eced4e.png">
 
 
 
