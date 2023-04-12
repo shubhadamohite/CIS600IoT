@@ -1,0 +1,753 @@
+{
+  "title": "Virtual Station 1",
+  "image": null,
+  "mobileHide": false,
+  "mobileOrder": null,
+  "configuration": {
+    "description": "",
+    "widgets": {
+      "4e567069-9d48-389c-fd1e-243a840b4f4c": {
+        "isSystemType": true,
+        "bundleAlias": "charts",
+        "typeAlias": "basic_timeseries",
+        "type": "timeseries",
+        "title": "New widget",
+        "image": null,
+        "description": null,
+        "sizeX": 8,
+        "sizeY": 5,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "name": null,
+              "entityAliasId": "1e02ffd9-e6db-7566-ae0e-0f660e0ca3c4",
+              "filterId": null,
+              "dataKeys": [
+                {
+                  "name": "temperature",
+                  "type": "timeseries",
+                  "label": "temperature",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.538263390709288
+                }
+              ],
+              "latestDataKeys": []
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "shadowSize": 4,
+            "fontColor": "#545454",
+            "fontSize": 10,
+            "xaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "yaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "grid": {
+              "color": "#545454",
+              "tickColor": "#DDDDDD",
+              "verticalLines": true,
+              "horizontalLines": true,
+              "outlineWidth": 1
+            },
+            "legend": {
+              "show": true,
+              "position": "nw",
+              "backgroundColor": "#f0f0f0",
+              "backgroundOpacity": 0.85,
+              "labelBoxBorderColor": "rgba(1, 1, 1, 0.45)"
+            },
+            "decimals": 1,
+            "stack": false,
+            "tooltipIndividual": false
+          },
+          "title": "Temperature (degree_celcius)",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showTitleIcon": false,
+          "titleTooltip": "",
+          "enableDataExport": true,
+          "widgetStyle": {},
+          "widgetCss": "",
+          "pageSize": 1024,
+          "noDataDisplayMessage": "",
+          "showLegend": true,
+          "legendConfig": {
+            "direction": "column",
+            "position": "bottom",
+            "sortDataKeys": false,
+            "showMin": false,
+            "showMax": false,
+            "showAvg": true,
+            "showTotal": false,
+            "showLatest": false
+          },
+          "titleIcon": "",
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px"
+        },
+        "row": 0,
+        "col": 0,
+        "id": "4e567069-9d48-389c-fd1e-243a840b4f4c"
+      },
+      "68891d4d-e538-5ba9-6f73-699784c2879f": {
+        "isSystemType": true,
+        "bundleAlias": "charts",
+        "typeAlias": "basic_timeseries",
+        "type": "timeseries",
+        "title": "Timeseries Line Chart",
+        "sizeX": 16,
+        "sizeY": 10,
+        "row": 0,
+        "col": 2,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "entityAliasId": "306e4dc4-3287-ea15-3c6f-459b1ef14b78",
+              "dataKeys": [
+                {
+                  "name": "humidity",
+                  "label": "humidity",
+                  "type": "timeseries",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.67493041059482
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "shadowSize": 4,
+            "fontColor": "#545454",
+            "fontSize": 10,
+            "xaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "yaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "grid": {
+              "color": "#545454",
+              "tickColor": "#DDDDDD",
+              "verticalLines": true,
+              "horizontalLines": true,
+              "outlineWidth": 1
+            },
+            "legend": {
+              "show": true,
+              "position": "nw",
+              "backgroundColor": "#f0f0f0",
+              "backgroundOpacity": 0.85,
+              "labelBoxBorderColor": "rgba(1, 1, 1, 0.45)"
+            },
+            "decimals": 1,
+            "stack": false,
+            "tooltipIndividual": false
+          },
+          "title": "Humidity (%)",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "mobileHeight": null,
+          "showTitleIcon": false,
+          "titleTooltip": "",
+          "enableDataExport": true,
+          "widgetStyle": {},
+          "widgetCss": "",
+          "pageSize": 1024,
+          "noDataDisplayMessage": "",
+          "showLegend": true,
+          "legendConfig": {
+            "direction": "column",
+            "position": "bottom",
+            "sortDataKeys": false,
+            "showMin": false,
+            "showMax": false,
+            "showAvg": true,
+            "showTotal": false,
+            "showLatest": false
+          }
+        },
+        "id": "68891d4d-e538-5ba9-6f73-699784c2879f"
+      },
+      "0c928bb1-2c31-b065-fa74-99aa661f7a2c": {
+        "isSystemType": true,
+        "bundleAlias": "charts",
+        "typeAlias": "basic_timeseries",
+        "type": "timeseries",
+        "title": "Timeseries Line Chart",
+        "sizeX": 16,
+        "sizeY": 10,
+        "row": 0,
+        "col": 2,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "entityAliasId": "128c8391-3b7a-2313-36a9-5593cdbcb396",
+              "dataKeys": [
+                {
+                  "name": "co2",
+                  "label": "co2",
+                  "type": "timeseries",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.9445723705958919
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "shadowSize": 4,
+            "fontColor": "#545454",
+            "fontSize": 10,
+            "xaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "yaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "grid": {
+              "color": "#545454",
+              "tickColor": "#DDDDDD",
+              "verticalLines": true,
+              "horizontalLines": true,
+              "outlineWidth": 1
+            },
+            "legend": {
+              "show": true,
+              "position": "nw",
+              "backgroundColor": "#f0f0f0",
+              "backgroundOpacity": 0.85,
+              "labelBoxBorderColor": "rgba(1, 1, 1, 0.45)"
+            },
+            "decimals": 1,
+            "stack": false,
+            "tooltipIndividual": false
+          },
+          "title": "Co2 sensor (ppm)",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "mobileHeight": null,
+          "showTitleIcon": false,
+          "titleTooltip": "",
+          "enableDataExport": true,
+          "widgetStyle": {},
+          "widgetCss": "",
+          "pageSize": 1024,
+          "noDataDisplayMessage": "",
+          "showLegend": true,
+          "legendConfig": {
+            "direction": "column",
+            "position": "bottom",
+            "sortDataKeys": false,
+            "showMin": false,
+            "showMax": false,
+            "showAvg": true,
+            "showTotal": false,
+            "showLatest": false
+          }
+        },
+        "id": "0c928bb1-2c31-b065-fa74-99aa661f7a2c"
+      },
+      "4fd0025a-db27-917b-4ec8-f1d4e82fa882": {
+        "isSystemType": true,
+        "bundleAlias": "charts",
+        "typeAlias": "basic_timeseries",
+        "type": "timeseries",
+        "title": "Timeseries Line Chart",
+        "sizeX": 16,
+        "sizeY": 10,
+        "row": 0,
+        "col": 2,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "entityAliasId": "64663280-f77b-56df-d950-9dfbe33b8ae0",
+              "dataKeys": [
+                {
+                  "name": "rainHeight",
+                  "label": "rainHeight",
+                  "type": "timeseries",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.8050723505839843
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "shadowSize": 4,
+            "fontColor": "#545454",
+            "fontSize": 10,
+            "xaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "yaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "grid": {
+              "color": "#545454",
+              "tickColor": "#DDDDDD",
+              "verticalLines": true,
+              "horizontalLines": true,
+              "outlineWidth": 1
+            },
+            "legend": {
+              "show": true,
+              "position": "nw",
+              "backgroundColor": "#f0f0f0",
+              "backgroundOpacity": 0.85,
+              "labelBoxBorderColor": "rgba(1, 1, 1, 0.45)"
+            },
+            "decimals": 1,
+            "stack": false,
+            "tooltipIndividual": false
+          },
+          "title": "Rain height (mm/h)",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "mobileHeight": null,
+          "showTitleIcon": false,
+          "titleTooltip": "",
+          "enableDataExport": true,
+          "widgetStyle": {},
+          "widgetCss": "",
+          "pageSize": 1024,
+          "noDataDisplayMessage": "",
+          "showLegend": true,
+          "legendConfig": {
+            "direction": "column",
+            "position": "bottom",
+            "sortDataKeys": false,
+            "showMin": false,
+            "showMax": false,
+            "showAvg": true,
+            "showTotal": false,
+            "showLatest": false
+          }
+        },
+        "id": "4fd0025a-db27-917b-4ec8-f1d4e82fa882"
+      },
+      "2bce3be9-dbe8-883d-89e2-19324510e942": {
+        "isSystemType": true,
+        "bundleAlias": "charts",
+        "typeAlias": "basic_timeseries",
+        "type": "timeseries",
+        "title": "Timeseries Line Chart",
+        "sizeX": 16,
+        "sizeY": 10,
+        "row": 0,
+        "col": 2,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "entityAliasId": "746dd3a2-b64c-1006-361c-35b488d56b74",
+              "dataKeys": [
+                {
+                  "name": "windDirection",
+                  "label": "windDirection",
+                  "type": "timeseries",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.7047506313426863
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "shadowSize": 4,
+            "fontColor": "#545454",
+            "fontSize": 10,
+            "xaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "yaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "grid": {
+              "color": "#545454",
+              "tickColor": "#DDDDDD",
+              "verticalLines": true,
+              "horizontalLines": true,
+              "outlineWidth": 1
+            },
+            "legend": {
+              "show": true,
+              "position": "nw",
+              "backgroundColor": "#f0f0f0",
+              "backgroundOpacity": 0.85,
+              "labelBoxBorderColor": "rgba(1, 1, 1, 0.45)"
+            },
+            "decimals": 1,
+            "stack": false,
+            "tooltipIndividual": false
+          },
+          "title": "Wind direction (degrees)",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "mobileHeight": null,
+          "showTitleIcon": false,
+          "titleTooltip": "",
+          "enableDataExport": true,
+          "widgetStyle": {},
+          "widgetCss": "",
+          "pageSize": 1024,
+          "noDataDisplayMessage": "",
+          "showLegend": true,
+          "legendConfig": {
+            "direction": "column",
+            "position": "bottom",
+            "sortDataKeys": false,
+            "showMin": false,
+            "showMax": false,
+            "showAvg": true,
+            "showTotal": false,
+            "showLatest": false
+          }
+        },
+        "id": "2bce3be9-dbe8-883d-89e2-19324510e942"
+      },
+      "46ceaf1c-af50-f751-61db-34c70b8ac2ca": {
+        "isSystemType": true,
+        "bundleAlias": "charts",
+        "typeAlias": "basic_timeseries",
+        "type": "timeseries",
+        "title": "Timeseries Line Chart",
+        "sizeX": 16,
+        "sizeY": 10,
+        "row": 0,
+        "col": 2,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "entityAliasId": "4d1d8db9-996b-70aa-b819-48382234dd0e",
+              "dataKeys": [
+                {
+                  "name": "windIntensity",
+                  "label": "windIntensity",
+                  "type": "timeseries",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.22433925186340353
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "shadowSize": 4,
+            "fontColor": "#545454",
+            "fontSize": 10,
+            "xaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "yaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "grid": {
+              "color": "#545454",
+              "tickColor": "#DDDDDD",
+              "verticalLines": true,
+              "horizontalLines": true,
+              "outlineWidth": 1
+            },
+            "legend": {
+              "show": true,
+              "position": "nw",
+              "backgroundColor": "#f0f0f0",
+              "backgroundOpacity": 0.85,
+              "labelBoxBorderColor": "rgba(1, 1, 1, 0.45)"
+            },
+            "decimals": 1,
+            "stack": false,
+            "tooltipIndividual": false
+          },
+          "title": "Wind Intensity (m/s)",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "mobileHeight": null,
+          "showTitleIcon": false,
+          "titleTooltip": "",
+          "enableDataExport": true,
+          "widgetStyle": {},
+          "widgetCss": "",
+          "pageSize": 1024,
+          "noDataDisplayMessage": "",
+          "showLegend": true,
+          "legendConfig": {
+            "direction": "column",
+            "position": "bottom",
+            "sortDataKeys": false,
+            "showMin": false,
+            "showMax": false,
+            "showAvg": true,
+            "showTotal": false,
+            "showLatest": false
+          }
+        },
+        "id": "46ceaf1c-af50-f751-61db-34c70b8ac2ca"
+      }
+    },
+    "states": {
+      "default": {
+        "name": "Virtual Station 1",
+        "root": true,
+        "layouts": {
+          "main": {
+            "widgets": {
+              "4e567069-9d48-389c-fd1e-243a840b4f4c": {
+                "sizeX": 10,
+                "sizeY": 5,
+                "row": 0,
+                "col": 0
+              },
+              "68891d4d-e538-5ba9-6f73-699784c2879f": {
+                "sizeX": 8,
+                "sizeY": 5,
+                "mobileHeight": null,
+                "row": 0,
+                "col": 10
+              },
+              "0c928bb1-2c31-b065-fa74-99aa661f7a2c": {
+                "sizeX": 8,
+                "sizeY": 5,
+                "mobileHeight": null,
+                "row": 0,
+                "col": 18
+              },
+              "4fd0025a-db27-917b-4ec8-f1d4e82fa882": {
+                "sizeX": 10,
+                "sizeY": 6,
+                "mobileHeight": null,
+                "row": 5,
+                "col": 0
+              },
+              "2bce3be9-dbe8-883d-89e2-19324510e942": {
+                "sizeX": 8,
+                "sizeY": 6,
+                "mobileHeight": null,
+                "row": 5,
+                "col": 10
+              },
+              "46ceaf1c-af50-f751-61db-34c70b8ac2ca": {
+                "sizeX": 8,
+                "sizeY": 6,
+                "mobileHeight": null,
+                "row": 5,
+                "col": 18
+              }
+            },
+            "gridSettings": {
+              "backgroundColor": "#eeeeee",
+              "columns": 24,
+              "margin": 10,
+              "backgroundSizeMode": "100%"
+            }
+          }
+        }
+      }
+    },
+    "entityAliases": {
+      "1e02ffd9-e6db-7566-ae0e-0f660e0ca3c4": {
+        "id": "1e02ffd9-e6db-7566-ae0e-0f660e0ca3c4",
+        "alias": "MyDevice",
+        "filter": {
+          "type": "singleEntity",
+          "resolveMultiple": false,
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "7ae8cb00-d7e6-11ed-a623-d705b52c9493"
+          }
+        }
+      },
+      "306e4dc4-3287-ea15-3c6f-459b1ef14b78": {
+        "id": "306e4dc4-3287-ea15-3c6f-459b1ef14b78",
+        "alias": "HumiditySensor1",
+        "filter": {
+          "type": "singleEntity",
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "698f2870-d801-11ed-8686-9ba30be05e76"
+          },
+          "resolveMultiple": false
+        }
+      },
+      "128c8391-3b7a-2313-36a9-5593cdbcb396": {
+        "id": "128c8391-3b7a-2313-36a9-5593cdbcb396",
+        "alias": "CO2Sensor1",
+        "filter": {
+          "type": "singleEntity",
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "85e61a10-d801-11ed-ab36-91b88e4188de"
+          },
+          "resolveMultiple": false
+        }
+      },
+      "64663280-f77b-56df-d950-9dfbe33b8ae0": {
+        "id": "64663280-f77b-56df-d950-9dfbe33b8ae0",
+        "alias": "RainHeight1",
+        "filter": {
+          "type": "singleEntity",
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "90822a90-d801-11ed-9d78-bb2626b46a8b"
+          },
+          "resolveMultiple": false
+        }
+      },
+      "746dd3a2-b64c-1006-361c-35b488d56b74": {
+        "id": "746dd3a2-b64c-1006-361c-35b488d56b74",
+        "alias": "WindDirection1",
+        "filter": {
+          "type": "singleEntity",
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "97166e70-d801-11ed-ab36-91b88e4188de"
+          },
+          "resolveMultiple": false
+        }
+      },
+      "4d1d8db9-996b-70aa-b819-48382234dd0e": {
+        "id": "4d1d8db9-996b-70aa-b819-48382234dd0e",
+        "alias": "WindIntensity1",
+        "filter": {
+          "type": "singleEntity",
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "cca81d90-d801-11ed-b747-3d2284eff4f2"
+          },
+          "resolveMultiple": false
+        }
+      }
+    },
+    "filters": {},
+    "timewindow": {
+      "hideInterval": false,
+      "hideLastInterval": false,
+      "hideQuickInterval": true,
+      "hideAggregation": false,
+      "hideAggInterval": false,
+      "hideTimezone": false,
+      "selectedTab": 0,
+      "realtime": {
+        "realtimeType": 0,
+        "timewindowMs": 3600000,
+        "quickInterval": "CURRENT_DAY",
+        "interval": 10000
+      },
+      "aggregation": {
+        "type": "AVG",
+        "limit": 25000
+      }
+    },
+    "settings": {
+      "stateControllerId": "entity",
+      "showTitle": false,
+      "showDashboardsSelect": true,
+      "showEntitiesSelect": true,
+      "showDashboardTimewindow": true,
+      "showDashboardExport": true,
+      "toolbarAlwaysOpen": true
+    }
+  },
+  "externalId": null,
+  "name": "Virtual Station 1"
+}
