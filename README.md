@@ -25,8 +25,11 @@ The scripts I have written are doing the same over a period of five hours.
 python tempSensor1.py 
 
 # The following interfaces were built using the dashboarding functionality of ThingsBoard: 
-
+**
+Virtual Station 1: **
 <img width="1294" alt="image" src="https://user-images.githubusercontent.com/47294531/231549301-44daa02f-9357-4180-a238-f9ccfdb1c381.png">
+**
+Virtual Station 2: **
 <img width="1294" alt="image" src="https://user-images.githubusercontent.com/47294531/231549603-4fc4d020-5a0b-42fb-b363-acadb8eced4e.png">
 
 
